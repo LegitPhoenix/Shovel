@@ -1,4 +1,4 @@
-apache-airflow==2.2.5
+apache-airflow==2.11.1rc1
 starlette==0.24.0
 markdown-it-py==2.1.0
 pgadmin4==6.13
