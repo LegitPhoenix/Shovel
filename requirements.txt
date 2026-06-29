@@ -1,4 +1,7 @@
-apache-airflow==2.2.5
+apache-airflow==3.3.0b1
 starlette==0.24.0
 markdown-it-py==2.1.0
 pgadmin4==6.13
+apache-airflow-providers-ftp>=3.15.1rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+python-engineio>=4.13.2 # not directly required, pinned by Snyk to avoid a vulnerability
+python-socketio>=5.16.2 # not directly required, pinned by Snyk to avoid a vulnerability
