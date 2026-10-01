@@ -2,3 +2,6 @@ apache-airflow==2.2.5
 starlette==0.24.0
 markdown-it-py==2.1.0
 pgadmin4==6.13
+oauthlib>=4.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.9 # not directly required, pinned by Snyk to avoid a vulnerability
